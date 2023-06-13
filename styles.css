@@ -1,0 +1,46 @@
+:root {
+    --light-blue: #66E2DC;
+    --orange: #FA7453;
+    --gold: #FFB964;
+    --white: #FCFAF9;
+    --dark-blue: #191826;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "IBM+Plex+Sans", sans-serif;
+    background-image: url(/equalizer-landing-page/starter-code/assets/bg-main-desktop.png);
+    width: 1250px;
+    margin: auto;
+}
+
+.logo {
+    width: 146px;
+}
+
+#top-logo {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+#main-header-container {
+    width: 900px;
+}
+
+#main-header {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#bg-pattern-1 {
+    position: absolute;
+    right: 0;
+    top: -40px;
+    width: 312px;
+    height: 468px;
+}
