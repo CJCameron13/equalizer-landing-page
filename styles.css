@@ -30,11 +30,18 @@ body {
 
 #main-header-container {
     width: 900px;
+    margin-bottom: 300px;
 }
 
 #main-header {
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#header-description {
+    font-size: 1.3rem;
+    line-height: 30px;
 }
 
 #bg-pattern-1 {
@@ -43,4 +50,104 @@ body {
     top: -40px;
     width: 312px;
     height: 468px;
+}
+
+#middle-stack {
+    background-color: var(--dark-blue);
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#phone {
+    width: 312px;
+    height: 642px;
+    margin-top: -200px;
+    position: relative;
+    z-index: 1;
+}
+
+#background-pattern-2 {
+    width: 312px;
+    height: 468px;
+    position: absolute;
+    left: 380px;
+    z-index: 0;
+}
+
+#subscription-container {
+    background-color: var(--orange);
+    color: var(--white);
+    width: 446px;
+    height: 625px;
+    border-radius: 10px;
+    margin-top: 100px;
+    position: relative; 
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
+}
+
+#subscription-header {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#subscription-features {
+    font-size: 1.3rem;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+#subscription-price {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#price-number {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+button {
+    height: 61px;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 0;
+    font-family: "IBM+Plex+Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-logo {
+    margin-right: 5px;
+}
+
+#apple-button {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+#apple-button:hover {
+    background-color: var(--light-blue);
+    cursor: pointer;
+}
+
+#android-button:hover {
+    background-color: var(--gold);
+    cursor: pointer;
 }
